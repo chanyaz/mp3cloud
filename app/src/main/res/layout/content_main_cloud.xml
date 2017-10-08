@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a3ffffff"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.gigamole.navigationtabbar.ntb.NavigationTabBar
+            android:id="@+id/ntb_vertical"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            app:ntb_badge_gravity="top"
+            app:ntb_badge_position="right"
+            app:ntb_badged="true"
+            app:ntb_preview_colors="@array/vertical_ntb"
+            app:ntb_scaled="true"
+            app:ntb_swiped="true"
+            app:ntb_tinted="true"
+            app:ntb_title_mode="active"
+            app:ntb_titled="true" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_vertical_ntb"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:id="@+id/content_main_cloud"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:background="#a3ffffff"--><!--android:orientation="vertical"--><!--app:layout_behavior="@string/appbar_scrolling_view_behavior"--><!--tools:context=".Views.MainCloud"--><!--tools:showIn="@layout/activity_main_cloud">-->
+
+    <!--<com.gigamole.navigationtabstrip.NavigationTabStripandroid:id--><!--="@+id/navTab"android:layout_width="match_parent"android:layout_height="45dp"android:background="@drawable/tab_background"app:nts_active_color="#ffffff"app:nts_animation_duration="300"app:nts_color="#ce3f2e59"app:nts_corners_radius="1.5dp"app:nts_factor="2.5"app:nts_gravity="bottom"app:nts_inactive_color="#e7e7e7"app:nts_size="15sp"app:nts_titles="@array/titles"app:nts_type="line"app:nts_weight="2.5dp"--><!--/>-->
+
+    <!--<android.support.v4.view.ViewPagerandroid:id="@+id/viewpager"android:layout_width="match_parent"android:layout_height="match_parent"/></LinearLayout>-->

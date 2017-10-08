@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardElevation="2dp"
+    card_view:contentPadding="3dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imagePlaylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="180dp"
+            android:maxWidth="180dp"
+            android:src="@drawable/album_cover_daft_punk" />
+
+
+        <TextView
+            android:id="@+id/txtPlaylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtArtist"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="5dp"
+            android:maxWidth="170dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:singleLine="true"
+            android:text="Album name"
+            android:textColor="#3b3b3b"
+            android:textSize="12dp" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23134b</color>
+    <color name="colorPrimaryDark">#180f2b</color>
+    <color name="colorAccent">#ff9a02</color>
+    <color name="colorNavigationBar">#000</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#23134b</color>
+
+    <color name="colorPane">#56c2cac9</color>
+
+
+    <color name="aw_dark">#3d7411</color>
+    <color name="aw_light">#de6611</color>
+    <color name="aw_expanded">#8507a7</color>
+    <color name="aw_progress">#d73e02</color>
+    <color name="aw_shadow">#50e43601</color>
+    <color name="aw_cross_default">#e2281e</color>
+    <color name="aw_cross_overlapped">#1876ce</color>
+
+
+    <color name="guillotine_background">#444153</color>
+    <color name="guillotine_background_dark">#383547</color>
+    <color name="selected_item_color">#ff9a02</color>
+
+
+    <color name="colorTop1">#ff9a02</color>
+    <color name="colorTop2">#27ae60</color>
+    <color name="colorTop3">#3498db</color>
+    <color name="colorTopDefault">#376c6c6c</color>
+</resources>

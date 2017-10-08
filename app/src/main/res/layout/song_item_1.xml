@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="horizontal"
+    card_view:cardBackgroundColor="#43ffffff"
+    card_view:cardCornerRadius="1dp"
+    card_view:cardElevation="1dp"
+    android:id="@+id/itemSong"
+    card_view:contentPadding="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/txtTile"
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:maxWidth="260dp"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="-1"
+                android:layout_marginLeft="4dp"
+                android:text="Chúng ta không thuộc về nhau"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <!--android:ellipsize="marquee"-->
+            <!--android:marqueeRepeatLimit="marquee_forever"-->
+            <!--android:singleLine="true"-->
+            <TextView
+                android:id="@+id/txtSinger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="270dp"
+                android:layout_marginLeft="4dp"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="-1"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#494949" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/imgCurrent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/next"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/txtDuration"
+            android:layout_toStartOf="@+id/txtDuration" />
+
+        <TextView
+            android:id="@+id/txtDuration"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="3:15"
+            android:textSize="15dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#494949"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
